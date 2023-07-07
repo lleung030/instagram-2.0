@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 import { SessionProvider } from 'next-auth/react';
 import NextAuthProvider from './NextAuthProvider';
 import { Metadata } from 'next'
+import { Session } from 'next-auth'
 
 export const metadata: Metadata = {
   title: 'Instagram 2.0',
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
+  children, 
 }: {
   children: React.ReactNode
 }) {
