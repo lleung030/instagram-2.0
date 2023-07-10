@@ -29,6 +29,7 @@
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
     "autoprefixer": "^10.4.14",
+    "encoding": "^0.1.13",
     "postcss": "^8.4.24",
     "tailwind-scrollbar": "^3.0.4",
     "tailwind-scrollbar-hide": "^1.1.7",
